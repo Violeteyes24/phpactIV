@@ -10,21 +10,17 @@
 </head>
 <body>
     
-    <h1>Hello Boot Strap World</h1>
+    <h1>Forms ACT IV</h1>
 
-    <form action="processing.php" method="post">
+    <form action="databasephp.php" method="post">
     <div class="container-xxl">
-        <p>Name:</p> <input type="text" name="name"><br>
-        <p>E-mail:</p> <input type="text" name="email"><br>
-        <p>Age:</p> <input type="text" name="age"><br>
-        <p>Country:</p> <input type="text" name="Country"><br><br>
+        <p>Employee #:</p> <input type="text" name="emp_no"><br>
+        <p>Birth Date:</p> <input type="date" name="birth_date"><br>
+        <p>First Name:</p> <input type="text" name="first_name"><br>
+        <p>Last Name:</p> <input type="text" name="last_name">
+        <p>Gender:</p> <input type="text" name="gender">
+        <p>Hire Date:</p> <input type="date" name="hire_date"><br><br>
             
-        <select name="gender" id="gender"> 
-            <option value="male">Male</option> 
-            <option value="female">Female</option> 
-        </select><br><br>
-        <p>Interest:</p> <textarea name="interests" rows="5" cols="40">Write something here</textarea><br><br>
-        <!-- works on another file but does not work well on sqlxphp-->
         <input type="submit" name="submit_button">
     </div>
     </form>
